@@ -18,7 +18,7 @@ const SingleProductPage = () => {
         </div>
       )}
       {/* TEXT CONTAINER  */}
-      <div className="h-1/2 flex flex-col gap-4 md:justify-center md:gap-5 xl:gap-7">
+      <div className="h-1/2 flex flex-col gap-4 md:justify-center md:gap-5 xl:gap-7 mb-3">
         <h1 className="text-3xl font-bold uppercase xl:text-5xl">
           {singleProduct.title}
         </h1>
